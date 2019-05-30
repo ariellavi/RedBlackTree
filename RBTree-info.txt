@@ -11,16 +11,17 @@ The four conditions of the Red-Black Tree:
   	3) There are no two adjacent RED nodes (i.e. a RED node cannot have a 
   	   parent or child that is RED)
   	4) For every node, each path from that node to a descendant (null) node 
-  	   must have the same number of BLACK nodes	
+  	   must have the same number of BLACK nodes, called the blackHeight of
+	   the path. A null node as a child counts as a BLACK node.	
   	   
 The put and remove functionality is the same as in BST, except for the fact that,
-in the RBTree, a rebalancing method is called in every add/remove operation
+in the RBTree, a rebalancing method is called in every add/remove operation.
 
 
  Pseudocode
  
  
- 
+ ** Someday there will be something here **
  
  
  
