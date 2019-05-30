@@ -1,0 +1,30 @@
+@author ariellavi
+
+My attempt at an implementation of a Red-Black Tree. This Tree algorithm is useful 
+because it balances based on tree height, rather than left-right subtree balance
+(as in DLLTree). For example, a subtree with three straight nodes is not allowed 
+under the RBTree conditions.
+
+The four conditions of the Red-Black Tree:
+	1) Every node is assigned a color RED or BLACK
+ 	2) The root of the (main) tree is always BLACK
+  	3) There are no two adjacent RED nodes (i.e. a RED node cannot have a 
+  	   parent or child that is RED)
+  	4) For every node, each path from that node to a descendant (null) node 
+  	   must have the same number of BLACK nodes	
+  	   
+The put and remove functionality is the same as in BST, except for the fact that,
+in the RBTree, a rebalancing method is called in every add/remove operation
+
+
+ Pseudocode
+ 
+ 
+ 
+ 
+ 
+ 
+ Sources
+ 
+ Cormel, Leiserson, Rivest, "Introduction to Algorithms" Ch. 14 
+ Link: http://staff.ustc.edu.cn/~csli/graduate/algorithms/book6/chap14.htm
