@@ -3,6 +3,9 @@ My (almost complete) attempt at implementing a Red-Black Binary Search Tree in J
 
 For more info on how a Red-Black Tree works, see RBTree-info.txt
 
+TODO:
+- deleteRebalance function, and dependent methods
+
 Algorithms and info were mainly sourced from here: http://staff.ustc.edu.cn/~csli/graduate/algorithms/book6/chap14.htm
 
 
